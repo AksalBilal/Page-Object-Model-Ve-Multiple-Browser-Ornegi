@@ -9,7 +9,7 @@ Yazılan test caselerde kodun tekrarını azaltmak için kullanılan bir model t
 
 Test olarak youtube.com da anasayfa ve trendler sayfaları aralarında gezinip daha sonradan youtube üzerinde search yapıp çıkan sonuçlar arasından ilk videoyu açacak bir senaryo hazırladım. Senaryoyu yazarken POM & C# &NUnit kullanacağız.
 
-Öncelikle Visual Studio üzerinde Bir test projesi açıp Nuget Packages kullanarak DotNetSeleniumExtras.PageObjects,DotNetSeleniumExtras.WaitHelpers, Selenium.WebDriver,Selenium.Chrome.WebDriver, Selenium.Firefox.WebDriver paketlerini ekleyelim.
+Öncelikle Visual Studio üzerinde Bir Unit Test Project (.Net FrameWork) projesi açıp Nuget Packages kullanarak DotNetSeleniumExtras.PageObjects,DotNetSeleniumExtras.WaitHelpers, Selenium.WebDriver,Selenium.Chrome.WebDriver, Selenium.Firefox.WebDriver paketlerini ekleyelim.
 
 PageObjects klasörü ekleyip klasör içine kullanacağımız Classlarımızı oluşturalım. Senaryomuz gereği ana sayfa trend sayfası ve sonuç sayfasında gezeceğimiz için bu sayfaların classlarını oluşturmalıyız.
   
